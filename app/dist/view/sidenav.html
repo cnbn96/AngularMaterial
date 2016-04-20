@@ -10,7 +10,7 @@
       md-items="item in vm.users | filter:vm.searchText" 
       md-item-text="item.name" 
       md-min-length="3" 
-      placeholder="filter">
+      placeholder="Searching for name">
       <md-item-template>
         <span md-highlight-text="vm.searchText" md-highlight-flags="^i">{{item.name}}</span>
       </md-item-template>

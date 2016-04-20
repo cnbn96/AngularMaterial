@@ -124,7 +124,7 @@ module ContactManagerApp {
         targetEvent: $event
       }).then((clickedItem) => {
         clickedItem && console.log( clickedItem.name + ' clicked!');
-      });
+      }); 
     }
   }
 }
